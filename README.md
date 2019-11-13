@@ -53,8 +53,37 @@ mvn clean install
 
 **Run Application**
 
+**Exposed REST End Point's**
+```
+http://localhost:8080/jerseyimplementation_war/webapi/api/
+```
+**Add a Student(GET)**
+
+```
+http://localhost:8080/jerseyimplementation_war/webapi/api/add?name=Alex&roll=10003&marks=70&course=Software%20System
+```
 
 
+**GET List Of All Students(GET)**
+
+```
+http://localhost:8080/jerseyimplementation_war/webapi/api/getAll
+```
+**Add a Student(Post)**
+
+```
+http://localhost:8080/jerseyimplementation_war/webapi/api/addStudent
+```
+
+**Request Body**
+```
+{
+    "course":"Software System",
+    "marks":73.0,
+    "name":"Amit",
+    "roll":10023
+}
+```
 
 
 
