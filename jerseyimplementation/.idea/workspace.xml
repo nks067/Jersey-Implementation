@@ -7,16 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="805ef834-46c6-439b-b410-c516a5d8daff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerseyimplementation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iiitb/ss/jersey/dao/TestDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iiitb/ss/jersey/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jerseyimplementation.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/iiitb/ss/jersey/MyResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/iiitb/ss/jersey/MyResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iiitb/ss/jersey/dao/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/iiitb/ss/jersey/dao/StudentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iiitb/ss/jersey/data/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/iiitb/ss/jersey/data/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/iiitb/ss/jersey/MyResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/iiitb/ss/jersey/MyResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/iiitb/ss/jersey/dao/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/iiitb/ss/jersey/dao/StudentDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/iiitb/ss/jersey/data/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/iiitb/ss/jersey/data/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jersey implementation.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/jersey implementation.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jersey implementation/WEB-INF/classes/iiitb/ss/jersey/MyResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jersey implementation/WEB-INF/classes/iiitb/ss/jersey/MyResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jersey implementation/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jersey implementation/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jersey implementation/WEB-INF/classes/iiitb/ss/jersey/dao/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jersey implementation/WEB-INF/classes/iiitb/ss/jersey/dao/StudentDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jersey implementation/WEB-INF/classes/iiitb/ss/jersey/data/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jersey implementation/WEB-INF/classes/iiitb/ss/jersey/data/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jersey implementation/WEB-INF/lib/javassist-3.18.1-GA.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,10 +63,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.27816093" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,6 +172,12 @@
       <workItem from="1573630273293" duration="1499000" />
       <workItem from="1573632354969" duration="662000" />
       <workItem from="1573635216468" duration="2386000" />
+      <workItem from="1573639682338" duration="924000" />
+      <workItem from="1573643836237" duration="671000" />
+      <workItem from="1574229503692" duration="36000" />
+      <workItem from="1574229767216" duration="223000" />
+      <workItem from="1574527364015" duration="153000" />
+      <workItem from="1574528167250" duration="7028000" />
     </task>
     <servers />
   </component>

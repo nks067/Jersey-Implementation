@@ -1,62 +1,78 @@
 package iiitb.ss.jersey.data;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="student")
 public class Student {
 
-    private String Name;
-    private long Roll;
-    private String Course;
-    private double Marks;
+    @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @Column(name="id")
+    private int id;
+
+    @Column(name="first_name")
+    private String firstName;
+
+    @Column(name="last_name")
+    private String lastName;
+
+    @Column(name="email")
+    private String email;
 
     public Student() {
 
     }
 
-    public Student(String name, long roll, String course, double marks) {
-        Name = name;
-        Roll = roll;
-        Course = course;
-        Marks = marks;
+    public Student(String firstName, String lastName, String email) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
     }
 
-    public String getName() {
-        return Name;
+    public int getId() {
+        return id;
     }
 
-    public void setName(String name) {
-        Name = name;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public long getRoll() {
-        return Roll;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setRoll(long roll) {
-        Roll = roll;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public String getCourse() {
-        return Course;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setCourse(String course) {
-        Course = course;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
-    public double getMarks() {
-        return Marks;
+    public String getEmail() {
+        return email;
     }
 
-    public void setMarks(double marks) {
-        Marks = marks;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     @Override
     public String toString() {
-        return "Student{" +
-                "Name='" + Name + '\'' +
-                ", Roll=" + Roll +
-                ", Course='" + Course + '\'' +
-                ", Marks=" + Marks +
-                '}';
+        return "Student [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
     }
+
 }
+
+
+

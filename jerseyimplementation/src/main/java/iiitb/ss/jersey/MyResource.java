@@ -28,23 +28,28 @@ public class MyResource {
     @GET @Path("/getAll")
     @Produces({"application/json", "application/xml"})
     public List<Student> FindEmployee() {
-        StudentDAO stDAO=new StudentDAO();
-        return stDAO.dataList;
+       StudentDAO stDAO=new StudentDAO();
+       return stDAO.getStudents();
+
     }
 
 
 
     @GET @Path("/add")
     //@Produces({"application/json", "application/xml"})
-    @Produces(MediaType.TEXT_PLAIN)
+   @Produces(MediaType.TEXT_PLAIN)
     public String addStudent(
-            @QueryParam("name") String name,
-            @QueryParam("roll") long roll,
-            @QueryParam("marks") double marks,
-            @QueryParam("course") String course){
-            Student obj=new Student(name,roll,course,marks);
+            @QueryParam("fname") String fname,
+            @QueryParam("lname") String lname,
+            @QueryParam("email") String email,
+            @QueryParam("id") int id){
+            Student obj=new Student();
+            obj.setFirstName(fname);
+            obj.setLastName(lname);
+            obj.setEmail(email);
+            obj.setId(id);
         StudentDAO stDAO=new StudentDAO();
-        stDAO.dataList.add(obj);
+        stDAO.saveStudent(obj);
         return "success";
 
     }
@@ -56,7 +61,7 @@ public class MyResource {
         String result = "Data saved : " + student;
         System.out.println(result);
         StudentDAO stDAO=new StudentDAO();
-        stDAO.dataList.add(student);
+        stDAO.saveStudent(student);
         return result;
     }
 }
